@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hotpink;
+}
+h1 {
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: chocolate;
+  font-size: 55px;
+}
+
+tbody {
+  background-color: gray;
+  font-size: 20px;
+}
+table {
+  display: table;
+  border-collapse: collapse;
+  position: absolute;
+  left: 170px;
+  top: 120px;
+
+  border-radius: 5px;
+}
+td,
+th {
+  border: none;
+  padding: 20px;
+  border-radius: 100px;
+}
+th {
+  background: pink;
+}
+tr:nth-child(even) {
+  background-color: brown;
+}
+p {
+  font-size: 200px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
